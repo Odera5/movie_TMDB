@@ -46,7 +46,7 @@ fetchAPI();
 //https://image.tmdb.org/t/p/ce3prrjh9ZehEl5JinNqr4jIeaB.jpg
 
 async function fetchAPI1() {
-  const response = await fetch(Url2);
+  const response = await fetch(Url3);
   const data = await response.json();
   console.log(data);
   const result = await data.results;

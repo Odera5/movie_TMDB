@@ -239,7 +239,6 @@ header {
 section {
   padding-top: 40px;
   margin-top: 0px;
-  background-color: white;
   position: relative;
 }
 footer {
@@ -399,31 +398,210 @@ h3 {
   right: -80px;
   margin-bottom: 0px;
 }
+.break-on-mobile {
+  display: none;
+}
 
 @media (max-width: 540px) {
   body {
-    background-color: white;
     margin: 0px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 70px 40px 320px 2700px 300px;
+    grid-template-rows: 70px 40px 460px 3630px 1000px;
     row-gap: 10px;
   }
 
+  #welcome-container {
+    background-image: image-set(url(https://media.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter\(duotone,00192f,00baff\)/hoVj2lYW3i7oMd1o7bPQRZd1lk1.jpg)1x,url(https://media.themoviedb.org/t/p/w3840_and_h1200_multi_faces_filter\(duotone,00192f,00baff\)/hoVj2lYW3i7oMd1o7bPQRZd1lk1.jpg)2x);
+    width: 1000px;
+    height: 250px;
+    margin-top: 0px;
+    padding: 50px 0px 30px 50px;
+  }
+
+  #nav-conatainer {
+    display: flex;
+    color: aliceblue;
+    justify-content: space-between;
+    background-color: rgb(3, 66, 98);
+    align-items: center;
+    padding: 0px 20px;
+    margin: 0px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width: 1009px;
+  }
+
+  #input1 {
+    width: 1014px;
+    height: 70px;
+    border: none;
+  }
+  #header-search {
+    width: 1019px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+    height: 70px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding: 0px 0px 0px 30px;
+  }
   #movie-container {
     margin-left: 50px;
-    height: 305px;
+    height: 520px;
     display: grid;
-    grid-template-columns: repeat(20, 150px);
-    grid-template-rows: 200px;
+    grid-template-columns: repeat(20, 300px);
+    grid-template-rows: 370px;
     gap: 20px;
-    width: 1299px;
+    width: 995px;
     overflow-x: scroll;
     padding-top: 20px;
-
     background-image: url(https://www.themoviedb.org/assets/2/v4/misc/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg);
     background-position: 50% 200px;
     background-size: var(--maxPrimaryPageWidth);
     background-repeat: no-repeat;
+  }
+
+  #movie-container2 {
+    margin-left: 50px;
+    height: 400px;
+    display: grid;
+    grid-template-columns: repeat(20, 500px);
+    grid-template-rows: 300px;
+    gap: 20px;
+    width: 995px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    overflow-x: scroll;
+    color: #fff;
+    background-image: url(https://media.themoviedb.org/t/p/w1920_and_h427_multi_faces/xyAvU9WrfQLCCU2VxLF4t7EMXEF.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.5s;
+  }
+
+  #movie-container3 {
+    margin-left: 50px;
+    height: 520px;
+    display: grid;
+    grid-template-columns: repeat(20, 300px);
+    grid-template-rows: 370px;
+    gap: 20px;
+
+    width: 995px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    overflow-x: scroll;
+  }
+
+  #movie-container4 {
+    margin-left: 50px;
+    height: 520px;
+    display: grid;
+    grid-template-columns: repeat(20, 300px);
+    grid-template-rows: 370px;
+    gap: 20px;
+
+    width: 995px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    overflow-x: scroll;
+  }
+
+  #join {
+    background-color: purple;
+    color: aliceblue;
+    height: 380px;
+    position: relative;
+    padding: 20px 50px;
+    width: 945px;
+    font-family: sans-serif;
+  }
+
+  #leaderboard {
+    background-image: url(IMG_20250419_133448.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1045px;
+    height: 700px;
+  }
+
+  section {
+    padding-top: 40px;
+    margin-top: 0px;
+
+    position: relative;
+    width: 1047px;
+  }
+  footer {
+    background-color: rgb(3, 66, 98);
+
+    color: white;
+    width: 1047px;
+  }
+  .break-on-mobile {
+    display: inline;
+    margin: 0px;
+  }
+  #welcome-paragraph {
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    margin-top: 0px;
+    margin-bottom: 50px;
+  }
+  #welcome {
+    color: white;
+    font-size: 70px;
+    font-family: sans-serif;
+    position: relative;
+    margin: 0px;
+  }
+  #input2 {
+    width: 750px;
+    height: 79px;
+    border: none;
+    border-radius: 40px;
+  }
+  #header-search2 {
+    background-color: white;
+    height: 80px;
+    width: 100px;
+    margin-bottom: 0px;
+    display: flex;
+    align-items: center;
+    padding: 0px 0px 0px 30px;
+
+    width: 95%;
+    border-radius: 60px;
+  }
+  #btn2 {
+    height: 79px;
+    width: 200px;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(18, 209, 252);
+  }
+  .container1,
+  .container2,
+  .container3,
+  .container4 {
+    border-radius: 10px;
+  }
+  .img1,
+  .img3,
+  .img4 {
+    width: 300px;
+    height: 370px;
+    border-radius: 5px;
+  }
+  .img2 {
+    width: 500px;
+    height: 300px;
   }
 }
