@@ -377,9 +377,11 @@ h3 {
 }
 
 .releaseDate {
+  font-size: 16px;
   margin-top: 5px;
 }
 .Movietitle {
+  font-size: 16px;
   margin-bottom: 0px;
 }
 
@@ -658,11 +660,9 @@ h3 {
   }
   .releaseDate {
     margin-top: 5px;
-    font-size: 30px;
   }
   .Movietitle {
     margin-bottom: 0px;
-    font-size: 30px;
   }
 
   #join {
