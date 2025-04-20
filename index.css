@@ -402,18 +402,24 @@ h3 {
   display: none;
 }
 
+.nav-imgDB,
+.input1,
+.input2 {
+  display: none;
+}
+
 @media (max-width: 540px) {
   body {
     margin: 0px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 130px 40px 500px 3900px 1300px;
+    grid-template-rows: 130px 40px 500px 3910px 1300px;
     row-gap: 10px;
   }
 
   #welcome-container {
     background-image: image-set(url(https://media.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter\(duotone,00192f,00baff\)/hoVj2lYW3i7oMd1o7bPQRZd1lk1.jpg)1x,url(https://media.themoviedb.org/t/p/w3840_and_h1200_multi_faces_filter\(duotone,00192f,00baff\)/hoVj2lYW3i7oMd1o7bPQRZd1lk1.jpg)2x);
-    background-color: aqua;
+
     width: 1000px;
     height: 450px;
     margin-top: 0px;
@@ -439,7 +445,7 @@ h3 {
     width: 95%;
     height: 70px;
     border: none;
-
+    display: block;
     font-size: 30px;
   }
   .input1:focus {
@@ -461,6 +467,7 @@ h3 {
     border: none;
     border-radius: 40px;
     font-size: 30px;
+    display: block;
   }
   .input2:focus {
     outline: none;
@@ -495,6 +502,7 @@ h3 {
   .nav-imgDB {
     width: 110px;
     margin-left: 450px;
+    display: block;
   }
   #nav-child,
   #nav-child2 {
@@ -549,6 +557,7 @@ h3 {
     display: flex;
     padding: 20px 0px;
     margin-top: 20px;
+    margin-bottom: 30px;
   }
   #stream-btn {
     padding: 5px 10px;
@@ -586,7 +595,8 @@ h3 {
 
   #movie-container {
     margin-left: 50px;
-    height: 520px;
+    height: 525px;
+
     display: grid;
     grid-template-columns: repeat(20, 300px);
     grid-template-rows: 370px;
