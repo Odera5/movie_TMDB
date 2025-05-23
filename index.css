@@ -1,3 +1,7 @@
+html {
+  --maxPrimaryPageWidth: 3380px;
+}
+
 body {
   background-color: white;
   margin: 0px;
@@ -115,29 +119,33 @@ ul > li {
   background-color: rgb(2, 37, 19);
 }
 #movie-container {
-  margin-left: 50px;
+  position: relative;
+  left: 50px;
   height: 305px;
   display: grid;
   grid-template-columns: repeat(20, 150px);
   grid-template-rows: 200px;
   gap: 20px;
-  width: 1299px;
   overflow-x: scroll;
   padding-top: 20px;
-
   background-image: url(https://www.themoviedb.org/assets/2/v4/misc/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg);
   background-position: 50% 200px;
   background-size: var(--maxPrimaryPageWidth);
   background-repeat: no-repeat;
+  max-width: 1299px;
+}
+
+.movie-container {
 }
 #movie-container2 {
-  margin-left: 50px;
+  position: relative;
   height: 300px;
+  left: 50px;
   display: grid;
   grid-template-columns: repeat(20, 300px);
   grid-template-rows: 170px;
   gap: 20px;
-  width: 1299px;
+  max-width: 1299px;
   padding-top: 50px;
   padding-bottom: 10px;
   overflow-x: scroll;
@@ -149,19 +157,21 @@ ul > li {
   transition: all 0.5s;
 }
 #movie-container3 {
-  margin-left: 50px;
+  position: relative;
+  left: 50px;
   height: 307px;
   display: grid;
   grid-template-columns: repeat(20, 150px);
   grid-template-rows: 200px;
   gap: 20px;
 
-  width: 1299px;
+  max-width: 1299px;
   padding-top: 50px;
   padding-bottom: 10px;
   overflow-x: scroll;
 }
 #movie-container4 {
+  left: 50px;
   margin-left: 50px;
   height: 305px;
   display: grid;
@@ -169,7 +179,7 @@ ul > li {
   grid-template-rows: 200px;
   gap: 20px;
 
-  width: 1299px;
+  max-width: 1299px;
   padding-top: 50px;
   padding-bottom: 10px;
   overflow-x: scroll;
@@ -419,8 +429,7 @@ h3 {
 
   #welcome-container {
     background-image: image-set(url(https://media.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter\(duotone,00192f,00baff\)/hoVj2lYW3i7oMd1o7bPQRZd1lk1.jpg)1x,url(https://media.themoviedb.org/t/p/w3840_and_h1200_multi_faces_filter\(duotone,00192f,00baff\)/hoVj2lYW3i7oMd1o7bPQRZd1lk1.jpg)2x);
-
-    width: 1000px;
+    width: 60%;
     height: 450px;
     margin-top: 0px;
     padding: 50px 0px 30px 50px;
@@ -436,7 +445,7 @@ h3 {
     margin: 0px;
     font-family: sans-serif;
     font-weight: bold;
-    width: 1009px;
+    width: 61%;
   }
   #input1 {
     display: none;
@@ -446,7 +455,7 @@ h3 {
     height: 70px;
     border: none;
     display: block;
-    font-size: 30px;
+    font-size: 2rem;
   }
   .input1:focus {
     outline: none;
@@ -466,7 +475,7 @@ h3 {
     height: 70px;
     border: none;
     border-radius: 40px;
-    font-size: 30px;
+    font-size: 2rem;
     display: block;
   }
   .input2:focus {
@@ -480,7 +489,7 @@ h3 {
   #header-search2 {
     background-color: green;
     height: 300px;
-    width: 100px;
+
     margin-bottom: 0px;
     display: flex;
     align-items: center;
@@ -501,8 +510,11 @@ h3 {
 
   .nav-imgDB {
     width: 110px;
-    margin-left: 450px;
-    display: block;
+    display: flex;
+  }
+  #nav-conatainer {
+    display: flex;
+    justify-content: center;
   }
   #nav-child,
   #nav-child2 {
@@ -511,10 +523,9 @@ h3 {
   #input1 {
     width: 1014px;
     height: 70px;
-    border: none;
   }
   #header-search {
-    width: 1019px;
+    width: 57%;
     position: sticky;
     top: 0px;
     z-index: 100;
@@ -601,7 +612,7 @@ h3 {
     grid-template-columns: repeat(20, 300px);
     grid-template-rows: 370px;
     gap: 20px;
-    width: 995px;
+    width: 88%;
     overflow-x: scroll;
     padding-top: 20px;
     background-image: url(https://www.themoviedb.org/assets/2/v4/misc/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg);
@@ -617,7 +628,7 @@ h3 {
     grid-template-columns: repeat(20, 500px);
     grid-template-rows: 300px;
     gap: 20px;
-    width: 995px;
+    width: 88%;
     padding-top: 50px;
     padding-bottom: 10px;
     overflow-x: scroll;
@@ -636,63 +647,52 @@ h3 {
     grid-template-columns: repeat(20, 300px);
     grid-template-rows: 370px;
     gap: 20px;
-
-    width: 995px;
+    width: 88%;
     padding-top: 50px;
     padding-bottom: 10px;
     overflow-x: scroll;
   }
 
   #movie-container4 {
-    margin-left: 50px;
+    margin-left: 100px;
     height: 520px;
     display: grid;
     grid-template-columns: repeat(20, 300px);
     grid-template-rows: 370px;
     gap: 20px;
-
-    width: 995px;
+    width: 88%;
     padding-top: 50px;
     padding-bottom: 10px;
     overflow-x: scroll;
   }
   .releaseDate {
     margin-top: 5px;
+    font-size: 1rem;
   }
   .Movietitle {
     margin-bottom: 0px;
-  }
-
-  #join {
-    background-color: purple;
-    color: aliceblue;
-    height: 380px;
-    position: relative;
-    padding: 20px 50px;
-    width: 945px;
-    font-family: sans-serif;
+    font-size: 1rem;
   }
 
   #leaderboard {
     background-image: url(IMG_20250419_133448.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 1045px;
+    width: 62%;
     height: 700px;
   }
 
   section {
     padding-top: 40px;
     margin-top: 0px;
-
     position: relative;
-    width: 1047px;
+    width: 63%;
   }
   footer {
     background-color: rgb(3, 66, 98);
     display: block;
     color: white;
-    width: 1047px;
+    width: 64%;
   }
   #tmdb-btn {
     padding: 15px;
@@ -804,7 +804,7 @@ h3 {
     height: 450px;
     position: relative;
     padding: 20px 50px;
-    width: 950px;
+    width: 88%;
     font-family: sans-serif;
   }
   #join-today {
