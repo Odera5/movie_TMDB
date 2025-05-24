@@ -161,3 +161,10 @@ async function fetchAPI2() {
   console.log("come");*/
 }
 fetchAPI2();
+
+/*const navImgDB = document.querySelector(".nav-imgDB");
+const menuBtn = document.querySelector(".menu-btn");
+menuBtn.addEventListener("click", () => {
+  
+});
+*/

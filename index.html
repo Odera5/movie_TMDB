@@ -9,12 +9,29 @@
   <body>
     <nav id="nav-conatainer">
       <div class="nav-imgDB">
+        <button class="menu-btn">&#9776;</button>
         <img
           src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
           alt="The Movie Database (TMDB)"
           width="130px"
           height="94px"
         />
+
+        <div id="user-search">
+          <svg
+            class="user-icon"
+            xmlns="http://www.w3.org/2000/svg"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="white"
+          >
+            <path
+              d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"
+            />
+          </svg>
+
+          <span id="search-icon"></span>
+        </div>
       </div>
 
       <div id="nav-child">
@@ -36,7 +53,7 @@
           <li id="li-en">EN</li>
           <li>Login</li>
           <li>Join TMDB</li>
-          <li>search icon</li>
+          <li id="search-icon"></li>
         </ul>
       </div>
     </nav>

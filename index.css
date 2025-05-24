@@ -398,6 +398,12 @@ h3 {
   font-size: 1em;
 }
 
+#search-icon {
+  height: 2rem;
+  width: 2rem;
+  background-image: url(https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-28-search-blue-177462d06db81ff2a02aa022c1c0be5ba4200d7bd3f51091ed9298980e3a26a1.svg);
+}
+
 #leaderboard {
   background-image: url(IMG_20250419_133448.jpg);
   background-repeat: no-repeat;
@@ -516,12 +522,31 @@ h3 {
   }
 
   .nav-imgDB {
-    width: 110px;
+    width: 100%;
     display: flex;
+    justify-content: space-between;
+  }
+  #user-search {
+    width: 10rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+  }
+  .menu-btn {
+    width: 5rem;
+    font-size: 2.5rem;
+    color: white;
+    border: none;
+    background: none;
   }
   #nav-conatainer {
     display: flex;
-    justify-content: center;
   }
   #nav-child,
   #nav-child2 {
@@ -729,6 +754,16 @@ h3 {
     font-size: 30px;
     font-family: sans-serif;
     margin-left: 50px;
+  }
+  .user-icon {
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+  #search-icon {
+    display: block;
+    height: 3rem;
+    width: 3rem;
+    background-image: url(https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-28-search-blue-177462d06db81ff2a02aa022c1c0be5ba4200d7bd3f51091ed9298980e3a26a1.svg);
   }
   #the-basics {
     margin-bottom: 70px;
