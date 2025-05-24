@@ -7,7 +7,7 @@ body {
   margin: 0px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 70px 40px 320px 2700px 400px;
+  grid-template-rows: 70px 40px 320px 2800px 400px;
   row-gap: 10px;
 }
 #nav-conatainer {
@@ -340,7 +340,7 @@ h3 {
 #join {
   background-color: purple;
   color: aliceblue;
-  height: 250px;
+  height: 350px;
   position: relative;
   padding: 20px 50px;
   width: 1250px;
@@ -360,6 +360,7 @@ h3 {
   color: white;
   font-family: sans-serif;
   font-weight: bolder;
+  margin-top: 50px;
 }
 .container1,
 .container3,
@@ -390,11 +391,11 @@ h3 {
 
 .releaseDate {
   margin-top: 5px;
-  font-size: 12px;
+  font-size: 1em;
 }
 .Movietitle {
   margin-bottom: 0px;
-  font-size: 12px;
+  font-size: 1em;
 }
 
 #leaderboard {
