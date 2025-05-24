@@ -121,7 +121,7 @@ ul > li {
 #movie-container {
   position: relative;
   left: 50px;
-  height: 350px;
+  height: 20rem;
   display: grid;
   grid-template-columns: repeat(20, 150px);
   grid-template-rows: 200px;
@@ -135,11 +135,12 @@ ul > li {
   max-width: 1299px;
 }
 
-.movie-container {
+.unorderedlist {
+  display: none;
 }
 #movie-container2 {
   position: relative;
-  height: 300px;
+  height: 17rem;
   left: 50px;
   display: grid;
   grid-template-columns: repeat(20, 300px);
@@ -159,12 +160,11 @@ ul > li {
 #movie-container3 {
   position: relative;
   left: 50px;
-  height: 307px;
+  height: 20rem;
   display: grid;
   grid-template-columns: repeat(20, 150px);
   grid-template-rows: 200px;
   gap: 20px;
-
   max-width: 1299px;
   padding-top: 50px;
   padding-bottom: 10px;
@@ -173,12 +173,11 @@ ul > li {
 #movie-container4 {
   left: 50px;
   margin-left: 50px;
-  height: 310px;
+  height: 20rem;
   display: grid;
   grid-template-columns: repeat(20, 150px);
   grid-template-rows: 200px;
   gap: 20px;
-
   max-width: 1299px;
   padding-top: 50px;
   padding-bottom: 10px;
@@ -388,11 +387,9 @@ h3 {
 
 .releaseDate {
   margin-top: 5px;
-  font-size: 1rem;
 }
 .Movietitle {
   margin-bottom: 0px;
-  font-size: 1rem;
 }
 
 #leaderboard {
@@ -436,7 +433,9 @@ h3 {
     margin-top: 0px;
     padding: 50px 0px 30px 50px;
   }
-
+  .unorderedlist {
+    display: block;
+  }
   #nav-conatainer {
     display: flex;
     color: aliceblue;
@@ -527,8 +526,7 @@ h3 {
     height: 70px;
   }
   #header-search {
-    width: 61%;
-    border: 2px solid red;
+    width: 61.5%;
     position: sticky;
     top: 0px;
     z-index: 100;
@@ -614,7 +612,7 @@ h3 {
     grid-template-columns: repeat(20, 300px);
     grid-template-rows: 370px;
     gap: 20px;
-    width: 94%;
+    width: 95%;
     overflow-x: scroll;
     padding-top: 20px;
     padding-left: 3em;
@@ -622,7 +620,6 @@ h3 {
     background-position: 50% 200px;
     background-size: var(--maxPrimaryPageWidth);
     background-repeat: no-repeat;
-    border: 2px solid red;
   }
 
   #movie-container2 {
@@ -632,7 +629,6 @@ h3 {
     grid-template-columns: repeat(20, 500px);
     grid-template-rows: 300px;
     gap: 20px;
-    border: 2px solid red;
     width: 100%;
     padding-top: 50px;
     padding-bottom: 10px;
@@ -647,13 +643,12 @@ h3 {
 
   #movie-container3 {
     left: -0.1px;
-    border: 2px solid red;
     height: 545px;
     display: grid;
     grid-template-columns: repeat(20, 300px);
     grid-template-rows: 370px;
     gap: 20px;
-    width: 94%;
+    width: 95%;
     padding-top: 50px;
     padding-left: 3em;
     padding-bottom: 10px;
@@ -666,12 +661,11 @@ h3 {
     grid-template-columns: repeat(20, 300px);
     grid-template-rows: 370px;
     gap: 20px;
-    width: 89%;
+    width: 95%;
     padding-top: 50px;
-    padding-left: 3em;
+
     padding-bottom: 10px;
     overflow-x: scroll;
-    border: 2px solid red;
   }
   .releaseDate {
     margin-top: 5px;
@@ -693,7 +687,6 @@ h3 {
     margin-top: 0px;
     position: relative;
     width: 63%;
-    border: 2px solid red;
   }
   footer {
     background-color: rgb(3, 66, 98);
@@ -811,7 +804,7 @@ h3 {
     height: 1170px;
     position: relative;
     padding: 20px 50px;
-    width: 89%;
+    width: 90%;
     font-family: sans-serif;
   }
   #join-today {
