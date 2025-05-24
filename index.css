@@ -7,7 +7,7 @@ body {
   margin: 0px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: 70px 40px 320px 2700px 300px;
+  grid-template-rows: 70px 40px 320px 2700px 400px;
   row-gap: 10px;
 }
 #nav-conatainer {
@@ -121,7 +121,7 @@ ul > li {
 #movie-container {
   position: relative;
   left: 50px;
-  height: 305px;
+  height: 350px;
   display: grid;
   grid-template-columns: repeat(20, 150px);
   grid-template-rows: 200px;
@@ -129,7 +129,7 @@ ul > li {
   overflow-x: scroll;
   padding-top: 20px;
   background-image: url(https://www.themoviedb.org/assets/2/v4/misc/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg);
-  background-position: 50% 200px;
+  background-position: 50% 5px;
   background-size: var(--maxPrimaryPageWidth);
   background-repeat: no-repeat;
   max-width: 1299px;
@@ -173,7 +173,7 @@ ul > li {
 #movie-container4 {
   left: 50px;
   margin-left: 50px;
-  height: 305px;
+  height: 310px;
   display: grid;
   grid-template-columns: repeat(20, 150px);
   grid-template-rows: 200px;
@@ -388,9 +388,11 @@ h3 {
 
 .releaseDate {
   margin-top: 5px;
+  font-size: 1rem;
 }
 .Movietitle {
   margin-bottom: 0px;
+  font-size: 1rem;
 }
 
 #leaderboard {
@@ -423,7 +425,7 @@ h3 {
     margin: 0px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 130px 40px 500px 3910px 1300px;
+    grid-template-rows: 130px 40px 500px 4791px 1300px;
     row-gap: 10px;
   }
 
@@ -525,7 +527,8 @@ h3 {
     height: 70px;
   }
   #header-search {
-    width: 57%;
+    width: 61%;
+    border: 2px solid red;
     position: sticky;
     top: 0px;
     z-index: 100;
@@ -605,30 +608,32 @@ h3 {
   }
 
   #movie-container {
-    margin-left: 50px;
     height: 525px;
-
+    left: -0.1px;
     display: grid;
     grid-template-columns: repeat(20, 300px);
     grid-template-rows: 370px;
     gap: 20px;
-    width: 88%;
+    width: 94%;
     overflow-x: scroll;
     padding-top: 20px;
+    padding-left: 3em;
     background-image: url(https://www.themoviedb.org/assets/2/v4/misc/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg);
     background-position: 50% 200px;
     background-size: var(--maxPrimaryPageWidth);
     background-repeat: no-repeat;
+    border: 2px solid red;
   }
 
   #movie-container2 {
-    margin-left: 50px;
+    left: -0.1px;
     height: 430px;
     display: grid;
     grid-template-columns: repeat(20, 500px);
     grid-template-rows: 300px;
     gap: 20px;
-    width: 88%;
+    border: 2px solid red;
+    width: 100%;
     padding-top: 50px;
     padding-bottom: 10px;
     overflow-x: scroll;
@@ -641,45 +646,46 @@ h3 {
   }
 
   #movie-container3 {
-    margin-left: 50px;
+    left: -0.1px;
+    border: 2px solid red;
     height: 545px;
     display: grid;
     grid-template-columns: repeat(20, 300px);
     grid-template-rows: 370px;
     gap: 20px;
-    width: 88%;
+    width: 94%;
     padding-top: 50px;
+    padding-left: 3em;
     padding-bottom: 10px;
     overflow-x: scroll;
   }
 
   #movie-container4 {
-    margin-left: 100px;
     height: 520px;
     display: grid;
     grid-template-columns: repeat(20, 300px);
     grid-template-rows: 370px;
     gap: 20px;
-    width: 88%;
+    width: 89%;
     padding-top: 50px;
+    padding-left: 3em;
     padding-bottom: 10px;
     overflow-x: scroll;
+    border: 2px solid red;
   }
   .releaseDate {
     margin-top: 5px;
-    font-size: 1rem;
   }
   .Movietitle {
     margin-bottom: 0px;
-    font-size: 1rem;
   }
 
   #leaderboard {
     background-image: url(IMG_20250419_133448.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 62%;
-    height: 700px;
+    width: 100%;
+    height: 850px;
   }
 
   section {
@@ -687,6 +693,7 @@ h3 {
     margin-top: 0px;
     position: relative;
     width: 63%;
+    border: 2px solid red;
   }
   footer {
     background-color: rgb(3, 66, 98);
@@ -801,27 +808,34 @@ h3 {
   #join {
     background-color: purple;
     color: aliceblue;
-    height: 450px;
+    height: 1170px;
     position: relative;
     padding: 20px 50px;
-    width: 88%;
+    width: 89%;
     font-family: sans-serif;
   }
   #join-today {
     font-size: 50px;
   }
   #get-access {
-    font-size: 30px;
+    font-size: 2.5rem;
   }
+  .unorderedlist > ul > li {
+    font-size: 2.3rem;
+    font-family: sans-serif;
+    list-style: disc;
+  }
+
   #sign-up {
-    padding: 10px 20px;
+    padding: 20px 20px;
     border-radius: 5px;
     border: none;
     background-color: blueviolet;
     color: white;
     font-family: sans-serif;
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 2.5rem;
     margin-top: 30px;
+    margin-bottom: 70px;
   }
 }
