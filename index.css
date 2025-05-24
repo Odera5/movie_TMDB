@@ -362,12 +362,15 @@ h3 {
   font-weight: bolder;
 }
 .container1,
-.container2,
 .container3,
 .container4 {
   border-radius: 10px;
+  height: 300px;
 }
-
+.container2 {
+  border-radius: 10px;
+  height: 250px;
+}
 .img1 {
   width: 150px;
   height: 200px;
@@ -387,9 +390,11 @@ h3 {
 
 .releaseDate {
   margin-top: 5px;
+  font-size: 12px;
 }
 .Movietitle {
   margin-bottom: 0px;
+  font-size: 12px;
 }
 
 #leaderboard {
