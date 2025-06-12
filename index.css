@@ -570,7 +570,7 @@ h3 {
     margin: 0px;
     display: flex;
     align-items: center;
-    z-index: 1000;
+    z-index: 800;
     padding: 0px 0px 0px 30px;
   }
 
@@ -892,7 +892,7 @@ h3 {
     flex-direction: column;
     position: relative;
     cursor: pointer;
-    z-index: 50;
+    z-index: 1000;
   }
   #hamburger-icon > span {
     display: block;
@@ -917,7 +917,7 @@ h3 {
     top: 8rem;
     left: 0px;
     height: 100%;
-    z-index: 40;
+    z-index: 999;
     width: 90%;
     background-color: rgba(3, 66, 98, 0.9);
     transform: translateX(-100%);
