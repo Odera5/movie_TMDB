@@ -162,9 +162,12 @@ async function fetchAPI2() {
 }
 fetchAPI2();
 
-/*const navImgDB = document.querySelector(".nav-imgDB");
-const menuBtn = document.querySelector(".menu-btn");
-menuBtn.addEventListener("click", () => {
-  
+document.addEventListener("DOMContentLoaded", () => {
+  const hamburgerIcon = document.querySelector("#hamburger-icon");
+  const mobileMenu = document.querySelector("#mobile-menu");
+
+  hamburgerIcon.addEventListener("click", () => {
+    hamburgerIcon.classList.toggle("open");
+    mobileMenu.classList.toggle("active");
+  });
 });
-*/
