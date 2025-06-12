@@ -884,13 +884,13 @@ h3 {
   #hamburger-icon {
     display: flex;
     justify-content: space-around;
-    top: 3.2rem;
-    left: 3rem;
+    top: -422rem;
+    left: 3.5rem;
 
     width: 2rem;
     height: 2rem;
     flex-direction: column;
-    position: fixed;
+    position: relative;
     cursor: pointer;
     z-index: 50;
   }
