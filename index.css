@@ -570,7 +570,7 @@ h3 {
     margin: 0px;
     display: flex;
     align-items: center;
-
+    z-index: 1000;
     padding: 0px 0px 0px 30px;
   }
 
