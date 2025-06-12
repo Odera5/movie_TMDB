@@ -165,9 +165,10 @@ fetchAPI2();
 document.addEventListener("DOMContentLoaded", () => {
   const hamburgerIcon = document.querySelector("#hamburger-icon");
   const mobileMenu = document.querySelector("#mobile-menu");
-
+  const body = document.body;
   hamburgerIcon.addEventListener("click", () => {
     hamburgerIcon.classList.toggle("open");
     mobileMenu.classList.toggle("active");
+    body.classList.toggle("overflow-hidden");
   });
 });
