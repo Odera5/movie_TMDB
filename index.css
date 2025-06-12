@@ -919,7 +919,7 @@ h3 {
     height: 100%;
     z-index: 999;
     width: 90%;
-    background-color: rgba(3, 66, 98, 0.9);
+    background-color: rgba(3, 66, 98, 0.95);
     transform: translateX(-100%);
     transition: all 0.3s ease-in-out;
   }
