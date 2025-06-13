@@ -438,16 +438,17 @@ h3 {
     margin: 0px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: 130px 40px 500px 4791px 1300px;
+    grid-template-rows: 80px 40px 500px 4791px 1300px;
     row-gap: 10px;
   }
 
   #welcome-container {
     background-image: image-set(url(https://media.themoviedb.org/t/p/w1920_and_h600_multi_faces_filter\(duotone,00192f,00baff\)/hoVj2lYW3i7oMd1o7bPQRZd1lk1.jpg)1x,url(https://media.themoviedb.org/t/p/w3840_and_h1200_multi_faces_filter\(duotone,00192f,00baff\)/hoVj2lYW3i7oMd1o7bPQRZd1lk1.jpg)2x);
-    width: 60%;
+    width: 35.5%;
     height: 450px;
     margin-top: 0px;
     padding: 50px 0px 30px 50px;
+    border: 2px solid red;
   }
   .unorderedlist {
     display: block;
@@ -462,18 +463,20 @@ h3 {
     margin: 0px;
     font-family: sans-serif;
     font-weight: bold;
-    width: 61%;
+    width: 36.5%;
+
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
   }
   #input1 {
     display: none;
   }
   .input1 {
-    width: 95%;
-    height: 70px;
+    width: 100%;
+    height: 53px;
     border: none;
     display: block;
     font-size: 2rem;
+    border: 2px solid red;
   }
   .input1:focus {
     outline: none;
@@ -481,7 +484,7 @@ h3 {
   .input1::placeholder {
     font-family: sans-serif;
     font-style: italic;
-    font-size: 30px;
+    font-size: 20px;
     opacity: 0.7;
   }
 
@@ -495,6 +498,7 @@ h3 {
     border-radius: 40px;
     font-size: 2rem;
     display: block;
+    border: 2px solid red;
   }
   .input2:focus {
     outline: none;
@@ -518,7 +522,16 @@ h3 {
   }
   #btn2 {
     height: 50px;
-    font-size: 30px;
+    font-size: 20px;
+    width: 50px;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    background-color: rgb(18, 209, 252);
+  }
+  .btnn2 {
+    height: 50px;
+    font-size: 20px;
     width: 110px;
     color: white;
     border-radius: 50px;
@@ -527,10 +540,10 @@ h3 {
   }
 
   .nav-imgDB {
-    width: 60%;
+    width: 73%;
     display: flex;
     justify-content: space-between;
-    margin-left: 18rem;
+    margin-left: 12rem;
   }
   #user-search {
     width: 10rem;
@@ -563,20 +576,21 @@ h3 {
     height: 70px;
   }
   #header-search {
-    width: 61.5%;
+    width: 37%;
     position: sticky;
     top: 0px;
-    height: 80px;
+    height: 55px;
     margin: 0px;
     display: flex;
     align-items: center;
     z-index: 800;
     padding: 0px 0px 0px 30px;
+    border: 2px solid red;
   }
 
   #Trending {
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 20px;
   }
   #Today-btn {
     height: 50px;
@@ -584,7 +598,7 @@ h3 {
     width: 150px;
     border-radius: 50px;
     position: relative;
-    left: 30px;
+    left: 10px;
     border: none;
     background-color: rgb(8, 49, 3);
     color: aliceblue;
@@ -594,7 +608,7 @@ h3 {
   }
   #latest {
     font-family: sans-serif;
-    font-size: 50px;
+    font-size: 20px;
   }
   #week {
     margin-left: 50px;
@@ -624,6 +638,7 @@ h3 {
     display: none;
   }
   #popular {
+    border: 2px solid blue;
     margin-top: 20px;
     margin-left: 50px;
     display: flex;
@@ -631,10 +646,10 @@ h3 {
   }
   #popular-btn {
     padding: 5px 20px;
-    width: 170px;
+    width: 150px;
     border-radius: 50px;
     position: relative;
-    right: -25px;
+
     border: none;
     font-size: 30px;
     color: aliceblue;
@@ -648,7 +663,8 @@ h3 {
     grid-template-columns: repeat(20, 300px);
     grid-template-rows: 370px;
     gap: 20px;
-    width: 95%;
+    width: 57%;
+    border: 2px solid red;
     overflow-x: scroll;
     padding-top: 20px;
     padding-left: 3em;
@@ -665,7 +681,8 @@ h3 {
     grid-template-columns: repeat(20, 500px);
     grid-template-rows: 300px;
     gap: 20px;
-    width: 100%;
+    width: 62%;
+    border: 2px solid red;
     padding-top: 50px;
     padding-bottom: 10px;
     overflow-x: scroll;
@@ -684,7 +701,8 @@ h3 {
     grid-template-columns: repeat(20, 300px);
     grid-template-rows: 370px;
     gap: 20px;
-    width: 95%;
+    width: 57%;
+    border: 2px solid red;
     padding-top: 50px;
     padding-left: 3em;
     padding-bottom: 10px;
@@ -697,7 +715,8 @@ h3 {
     grid-template-columns: repeat(20, 300px);
     grid-template-rows: 370px;
     gap: 20px;
-    width: 95%;
+    width: 56%;
+    border: 2px solid red;
     padding-top: 50px;
 
     padding-bottom: 10px;
@@ -714,7 +733,8 @@ h3 {
     background-image: url(IMG_20250419_133448.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 62.5%;
+    border: 2px solid red;
     height: 850px;
   }
 
@@ -722,13 +742,15 @@ h3 {
     padding-top: 40px;
     margin-top: 0px;
     position: relative;
-    width: 63%;
+    width: 39.2%;
+    border: 2px solid red;
   }
   footer {
     background-color: rgb(3, 66, 98);
     display: block;
     color: white;
-    width: 64%;
+    width: 39.5%;
+    border: 2px solid red;
   }
   #tmdb-btn {
     padding: 15px;
@@ -761,13 +783,13 @@ h3 {
     margin-left: 50px;
   }
   .user-icon {
-    width: 2.5rem;
-    height: 2.5rem;
+    width: 1.7rem;
+    height: 2rem;
   }
   #search-icon {
     display: block;
-    height: 3rem;
-    width: 3rem;
+    height: 2rem;
+    width: 2rem;
     background-image: url(https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-28-search-blue-177462d06db81ff2a02aa022c1c0be5ba4200d7bd3f51091ed9298980e3a26a1.svg);
   }
   #the-basics {
@@ -850,7 +872,8 @@ h3 {
     height: 1170px;
     position: relative;
     padding: 20px 50px;
-    width: 90%;
+    width: 51%;
+    border: 2px solid red;
     font-family: sans-serif;
   }
   #join-today {
@@ -884,11 +907,11 @@ h3 {
   #hamburger-icon {
     display: flex;
     justify-content: space-around;
-    top: -422rem;
+    top: -421rem;
     left: 3.5rem;
 
-    width: 2rem;
-    height: 2rem;
+    width: 1.7rem;
+    height: 1.7rem;
     flex-direction: column;
     position: relative;
     cursor: pointer;
@@ -914,7 +937,7 @@ h3 {
   #mobile-menu {
     display: block;
     position: fixed;
-    top: 8rem;
+    top: 5rem;
     left: 0px;
     height: 100%;
     z-index: 999;
