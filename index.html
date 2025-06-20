@@ -7,313 +7,319 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <nav id="nav-conatainer">
-      <div class="nav-imgDB">
-        <img
-          src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
-          alt="The Movie Database (TMDB)"
-          width="70px"
-          height="74px"
-          class="nav_imgDB"
-        />
+    <div id="grid-container">
+      <nav id="nav-conatainer">
+        <div class="nav-imgDB">
+          <img
+            src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
+            alt="The Movie Database (TMDB)"
+            width="70px"
+            height="74px"
+            class="nav_imgDB"
+          />
 
-        <div id="user-search">
-          <svg
-            class="user-icon"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="white"
-          >
-            <path
-              d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"
-            />
-          </svg>
+          <div id="user-search">
+            <svg
+              class="user-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="white"
+            >
+              <path
+                d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v3h20v-3c0-3.3-6.7-5-10-5z"
+              />
+            </svg>
 
-          <span id="search-icon"></span>
-        </div>
-      </div>
-
-      <div id="nav-child">
-        <div id="tmd-header">
-          <h2 id="tmd">TMDB</h2>
-          <div id="box"></div>
+            <span id="search-icon"></span>
+          </div>
         </div>
 
-        <ul>
-          <li>Movies</li>
-          <li>TV Shows</li>
-          <li>People</li>
-          <li>More</li>
-        </ul>
-      </div>
-      <div id="nav-child2">
-        <ul id="en">
-          <li>+</li>
-          <li id="li-en">EN</li>
-          <li>Login</li>
-          <li>Join TMDB</li>
-          <li id="search-icon"></li>
-        </ul>
-      </div>
-    </nav>
-    <div id="header-search">
-      <input
-        id="input1"
-        placeholder="Search for a movie, tv show, person...."
-      />
-      <input class="input1" placeholder="Search" />
-    </div>
-    <div id="welcome-container">
-      <h2 id="welcome">Welcome</h2>
-      <p id="welcome-paragraph">
-        Millions of movies, TV <span class="break-on-mobile"> <br /></span>shows
-        and people to<span class="break-on-mobile"> <br /></span> discover.
-        Explore now.
-      </p>
-      <div id="header-search2">
-        <input class="input2" placeholder="Search...." />
+        <div id="nav-child">
+          <div id="tmd-header">
+            <h2 id="tmd">TMDB</h2>
+            <div id="box"></div>
+          </div>
 
+          <ul>
+            <li>Movies</li>
+            <li>TV Shows</li>
+            <li>People</li>
+            <li>More</li>
+          </ul>
+        </div>
+        <div id="nav-child2">
+          <ul id="en">
+            <li>+</li>
+            <li id="li-en">EN</li>
+            <li>Login</li>
+            <li>Join TMDB</li>
+            <li id="search-icon"></li>
+          </ul>
+        </div>
+      </nav>
+      <div id="header-search">
         <input
-          id="input2"
+          id="input1"
           placeholder="Search for a movie, tv show, person...."
         />
-        <button id="btn2" class="btnn2">Search</button>
+        <input class="input1" placeholder="Search" />
       </div>
-    </div>
-
-    <section>
-      <div class="movie-container">
-        <div id="week">
-          <span id="Trending">Trending</span>
-          <button id="Today-btn">Today</button>
-          <button id="week-btn">This week</button>
-        </div>
-        <div id="movie-container">
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-          <div class="container1"><img class="img1" src="" /></div>
-        </div>
-      </div>
-
-      <div>
-        <div id="Latest-Trailers">
-          <span id="latest">Latest Trailers</span>
-          <button id="stream-btn">Popular</button>
-          <div id="stream">
-            <span>Streaming</span><span>On TV</span><span>For Rent</span
-            ><span>In Theaters</span>
-          </div>
-        </div>
-
-        <div id="movie-container2">
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-          <div class="container2"><img class="img2" src="" /></div>
-        </div>
-      </div>
-
-      <div>
-        <div id="popular">
-          <span id="latest">What's Popular</span>
-          <button id="popular-btn">Streaming</button>
-          <div id="stream">
-            <span>Streaming</span><span>On TV</span><span>For Rent</span
-            ><span>In Theaters</span>
-          </div>
-        </div>
-        <div id="movie-container3">
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-          <div class="container3"><img class="img3" src="" /></div>
-        </div>
-      </div>
-
-      <div>
-        <div id="popular">
-          <span id="latest">Free To Watch</span>
-          <button id="popular-btn">Streaming</button>
-          <div id="tv">
-            <span>TV</span>
-          </div>
-        </div>
-
-        <div id="movie-container4">
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-          <div class="container4"><img class="img4" src="" /></div>
-        </div>
-      </div>
-
-      <div id="join" class="joinn">
-        <h2 id="join-today">Join Today</h2>
-        <p id="get-access">
-          Get access to maintain your own custom personal list, track what
-          you've seen and search and filter for what to watch next-Regardless if
-          it's in theaters, on TV or<br />
-          available on popular streaming services like Netflix, Amazon, prime
-          Video, FlixOle, Zee5, and Sun Nxt.
+      <div id="welcome-container">
+        <h2 id="welcome">Welcome</h2>
+        <p id="welcome-paragraph">
+          Millions of movies, TV
+          <span class="break-on-mobile"> <br /></span>shows and people to<span
+            class="break-on-mobile"
+          >
+            <br
+          /></span>
+          discover. Explore now.
         </p>
-        <button id="sign-up">Sign Up</button>
-        <div class="unorderedlist">
-          <ul>
-            <li>Enjoy TMBD ad free</li>
-          </ul>
-          <ul>
-            <li>Maintain a personal watchlist</li>
-          </ul>
-          <ul>
-            <li>
-              Filter by your subscribed streaming services and<br />find
-              something to watch
-            </li>
-          </ul>
-          <ul>
-            <li>Log the movies and TV shows you've seen</li>
-          </ul>
-          <ul>
-            <li>Build custom list</li>
-          </ul>
-          <ul>
-            <li>Contribute to and improve our database</li>
-          </ul>
+        <div id="header-search2">
+          <input class="input2" placeholder="Search...." />
+
+          <input
+            id="input2"
+            placeholder="Search for a movie, tv show, person...."
+          />
+          <button id="btn2" class="btnn2">Search</button>
         </div>
       </div>
 
-      <div id="leaderboard"></div>
-    </section>
-    <footer>
-      <div>
-        <img
-          src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
-          alt="The Movie Database (TMDB)"
-          width="130px"
-          height="94px"
-          class="imgDB"
-        />
+      <section>
+        <div class="movie-container">
+          <div id="week">
+            <span id="Trending">Trending</span>
+            <button id="Today-btn">Today</button>
+            <button id="week-btn">This week</button>
+          </div>
+          <div id="movie-container">
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+            <div class="container1"><img class="img1" src="" /></div>
+          </div>
+        </div>
 
-        <button id="tmdb-btn">JOIN THE COMMUNITY</button>
+        <div>
+          <div id="Latest-Trailers">
+            <span id="latest">Latest Trailers</span>
+            <button id="stream-btn">Popular</button>
+            <div id="stream">
+              <span>Streaming</span><span>On TV</span><span>For Rent</span
+              ><span>In Theaters</span>
+            </div>
+          </div>
+
+          <div id="movie-container2">
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+            <div class="container2"><img class="img2" src="" /></div>
+          </div>
+        </div>
+
+        <div>
+          <div id="popular">
+            <span id="latest">What's Popular</span>
+            <button id="popular-btn">Streaming</button>
+            <div id="stream">
+              <span>Streaming</span><span>On TV</span><span>For Rent</span
+              ><span>In Theaters</span>
+            </div>
+          </div>
+          <div id="movie-container3">
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+            <div class="container3"><img class="img3" src="" /></div>
+          </div>
+        </div>
+
+        <div>
+          <div id="popular">
+            <span id="latest">Free To Watch</span>
+            <button id="popular-btn">Streaming</button>
+            <div id="tv">
+              <span>TV</span>
+            </div>
+          </div>
+
+          <div id="movie-container4">
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+            <div class="container4"><img class="img4" src="" /></div>
+          </div>
+        </div>
+
+        <div id="join" class="joinn">
+          <h2 id="join-today">Join Today</h2>
+          <p id="get-access">
+            Get access to maintain your own custom personal list, track what
+            you've seen and search and filter for what to watch next-Regardless
+            if it's in theaters, on TV or<br />
+            available on popular streaming services like Netflix, Amazon, prime
+            Video, FlixOle, Zee5, and Sun Nxt.
+          </p>
+          <button id="sign-up">Sign Up</button>
+          <div class="unorderedlist">
+            <ul>
+              <li>Enjoy TMBD ad free</li>
+            </ul>
+            <ul>
+              <li>Maintain a personal watchlist</li>
+            </ul>
+            <ul>
+              <li>
+                Filter by your subscribed streaming services and<br />find
+                something to watch
+              </li>
+            </ul>
+            <ul>
+              <li>Log the movies and TV shows you've seen</li>
+            </ul>
+            <ul>
+              <li>Build custom list</li>
+            </ul>
+            <ul>
+              <li>Contribute to and improve our database</li>
+            </ul>
+          </div>
+        </div>
+
+        <div id="leaderboard"></div>
+      </section>
+      <footer>
+        <div>
+          <img
+            src="https://www.themoviedb.org/assets/2/v4/logos/v2/blue_square_2-d537fb228cf3ded904ef09b136fe3fec72548ebc1fea3fbbd1ad9e36364db38b.svg"
+            alt="The Movie Database (TMDB)"
+            width="130px"
+            height="94px"
+            class="imgDB"
+          />
+
+          <button id="tmdb-btn">JOIN THE COMMUNITY</button>
+        </div>
+        <div id="the-basics">
+          <h3>THE BASICS</h3>
+          <ul class="footer-list">
+            <li>About TMDB</li>
+            <li>Contact us</li>
+            <li>Support Forums</li>
+            <li>API Documentations</li>
+            <li>System Status</li>
+          </ul>
+        </div>
+        <div id="get-involved">
+          <h3>GET INVOLVED</h3>
+          <ul class="footer-list">
+            <li>Contribution Bible</li>
+            <li>Add New Movie</li>
+            <li>Add New TV Show</li>
+          </ul>
+        </div>
+        <div id="community">
+          <h3>COMMUNITY</h3>
+          <ul class="footer-list">
+            <li>Guidelines</li>
+            <li>Discussions</li>
+            <li>Leaderboard</li>
+          </ul>
+        </div>
+        <div id="legal">
+          <h3>LEGAL</h3>
+          <ul class="footer-list">
+            <li>Terms of use</li>
+            <li>API Terms of use</li>
+            <li>Privacy Policy</li>
+            <li>DMCA Policy</li>
+          </ul>
+        </div>
+      </footer>
+      <div id="mobile-menu">
+        <div id="menu-item1">
+          <h3>Movies</h3>
+          <h3>TV Shows</h3>
+          <h3>People</h3>
+        </div>
+        <div id="menu-item2">
+          <p>Contribution</p>
+          <p>Discussions</p>
+          <p>Leaderboard</p>
+          <p>API</p>
+          <p>Support</p>
+          <p>About</p>
+          <p>Login</p>
+        </div>
       </div>
-      <div id="the-basics">
-        <h3>THE BASICS</h3>
-        <ul class="footer-list">
-          <li>About TMDB</li>
-          <li>Contact us</li>
-          <li>Support Forums</li>
-          <li>API Documentations</li>
-          <li>System Status</li>
-        </ul>
-      </div>
-      <div id="get-involved">
-        <h3>GET INVOLVED</h3>
-        <ul class="footer-list">
-          <li>Contribution Bible</li>
-          <li>Add New Movie</li>
-          <li>Add New TV Show</li>
-        </ul>
-      </div>
-      <div id="community">
-        <h3>COMMUNITY</h3>
-        <ul class="footer-list">
-          <li>Guidelines</li>
-          <li>Discussions</li>
-          <li>Leaderboard</li>
-        </ul>
-      </div>
-      <div id="legal">
-        <h3>LEGAL</h3>
-        <ul class="footer-list">
-          <li>Terms of use</li>
-          <li>API Terms of use</li>
-          <li>Privacy Policy</li>
-          <li>DMCA Policy</li>
-        </ul>
-      </div>
-    </footer>
-    <div id="mobile-menu">
-      <div id="menu-item1">
-        <h3>Movies</h3>
-        <h3>TV Shows</h3>
-        <h3>People</h3>
-      </div>
-      <div id="menu-item2">
-        <p>Contribution</p>
-        <p>Discussions</p>
-        <p>Leaderboard</p>
-        <p>API</p>
-        <p>Support</p>
-        <p>About</p>
-        <p>Login</p>
-      </div>
+      <div id="hamburger-icon"><span></span> <span></span><span></span></div>
     </div>
-    <div id="hamburger-icon"><span></span> <span></span><span></span></div>
     <script src="index.js"></script>
   </body>
 </html>
