@@ -163,7 +163,17 @@ async function fetchAPI2() {
 fetchAPI2();
 
 document.addEventListener("DOMContentLoaded", () => {
-  const hamburgerIcon = document.querySelector("#hamburger-icon");
+  const hamburgerContainer = document.querySelector("#hamburger-container");
+  const hamburgerIcon = document.createElement("div");
+  hamburgerIcon.classList.add("hamburger-icon");
+  const span1 = document.createElement("span");
+  const span2 = document.createElement("span");
+  const span3 = document.createElement("span");
+  hamburgerIcon.appendChild(span1);
+  hamburgerIcon.appendChild(span2);
+  hamburgerIcon.appendChild(span3);
+  hamburgerContainer.appendChild(hamburgerIcon);
+
   const mobileMenu = document.querySelector("#mobile-menu");
   const body = document.body;
   hamburgerIcon.addEventListener("click", () => {
