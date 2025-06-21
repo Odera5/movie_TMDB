@@ -10,23 +10,18 @@ body {
 #nav-conatainer {
   display: flex;
   color: aliceblue;
-  justify-content: space-between;
   background-color: rgb(3, 66, 98);
   align-items: center;
-  padding: 0px 0px;
-  margin: 0px;
   font-family: sans-serif;
   font-weight: bold;
   width: 100%;
-
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
 }
 .nav-imgDB {
   width: 96%;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  gap: 7em;
+  gap: 5em;
 }
 #hamburger-container {
   height: 3rem;
@@ -39,11 +34,11 @@ body {
 }
 .imgDB-icon {
   position: relative;
-  left: 2em;
+  left: 1em;
 }
 
 #user-search {
-  width: 8rem;
+  width: 5rem;
   display: flex;
   gap: 2rem;
   justify-content: center;
@@ -467,6 +462,7 @@ footer {
   display: block;
   height: 2rem;
   width: 2rem;
+  background-repeat: no-repeat;
   background-image: url(https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-28-search-blue-177462d06db81ff2a02aa022c1c0be5ba4200d7bd3f51091ed9298980e3a26a1.svg);
 }
 
