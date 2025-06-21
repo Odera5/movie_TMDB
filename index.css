@@ -1,5 +1,4 @@
 #grid-container {
-  background-color: aquamarine;
 }
 body {
   margin: 0px;
@@ -142,6 +141,241 @@ body {
   background-color: rgb(18, 209, 252);
 }
 
+section {
+  padding-top: 20px;
+  margin-top: 0px;
+  position: relative;
+  width: 99%;
+}
+
+#week {
+  margin-left: 1em;
+}
+#Trending {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+#Today-btn {
+  height: 1.7rem;
+  font-size: 1rem;
+  width: 110px;
+  border-radius: 50px;
+  position: relative;
+  left: 10px;
+  border: none;
+  background-color: rgb(8, 49, 3);
+  color: aliceblue;
+}
+
+.movie-container {
+}
+
+#movie-container {
+  height: 330px;
+  left: -0.1px;
+  display: grid;
+  grid-template-columns: repeat(20, 160px);
+  grid-template-rows: 230px;
+  gap: 20px;
+  width: 96%;
+
+  overflow-x: scroll;
+  padding-top: 1em;
+  padding-left: 1em;
+  background-image: url(https://www.themoviedb.org/assets/2/v4/misc/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg);
+  background-position: 10% 180px;
+  background-size: var(--maxPrimaryPageWidth);
+  background-repeat: no-repeat;
+}
+
+#Latest-Trailers {
+  margin-left: 1em;
+  display: flex;
+
+  margin-top: 15px;
+}
+#stream-btn {
+  padding: 5px 5px;
+  width: 120px;
+  border-radius: 50px;
+  position: relative;
+  right: -25px;
+  border: none;
+  font-size: 1rem;
+  background-color: rgb(5, 181, 93);
+}
+#latest {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.movie-container2 {
+}
+#movie-container2 {
+  left: -0.1px;
+  height: 295px;
+  display: grid;
+  grid-template-columns: repeat(20, 20rem);
+  grid-template-rows: 13rem;
+  gap: 20px;
+  width: 96%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 1em;
+  overflow-x: scroll;
+  color: #fff;
+  background-image: url(https://media.themoviedb.org/t/p/w1920_and_h427_multi_faces/xyAvU9WrfQLCCU2VxLF4t7EMXEF.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s;
+}
+.img2 {
+  width: 20rem;
+  height: 13rem;
+  border-radius: 7px;
+}
+#popular {
+  margin-top: 20px;
+  margin-left: 1em;
+  display: flex;
+  gap: 1.2rem;
+}
+
+#popular-btn {
+  width: 120px;
+  border-radius: 50px;
+  position: relative;
+  border: none;
+  font-size: 1rem;
+  color: aliceblue;
+  background-color: rgb(2, 37, 19);
+}
+
+#movie-container3 {
+  left: -0.1px;
+  height: 330px;
+  display: grid;
+  grid-template-columns: repeat(20, 160px);
+  grid-template-rows: 230px;
+  gap: 20px;
+  width: 96%;
+  padding-top: 1em;
+  padding-left: 1em;
+  padding-bottom: 10px;
+  overflow-x: scroll;
+}
+#movie-container4 {
+  height: 345px;
+  display: grid;
+  grid-template-columns: repeat(20, 160px);
+  grid-template-rows: 230px;
+  gap: 20px;
+  width: 96%;
+  padding-top: 1em;
+  padding-left: 1em;
+  overflow-x: scroll;
+}
+
+#join {
+  background-color: purple;
+  color: aliceblue;
+  height: 35rem;
+  position: relative;
+  padding-left: 1em;
+  width: 96%;
+  font-family: sans-serif;
+}
+#join-today {
+  font-size: 2rem;
+}
+#get-access {
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+#sign-up {
+  padding: 0.7em 1em;
+  border-radius: 5px;
+  border: none;
+  background-color: blueviolet;
+  color: white;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.unorderedlist > ul > li {
+  font-size: 1rem;
+  font-family: sans-serif;
+  list-style: disc;
+}
+
+#leaderboard {
+  background-image: url(IMG_20250419_133448.jpg);
+  background-repeat: no-repeat;
+  background-size: auto;
+
+  width: 99%;
+  height: 525px;
+}
+
+#tmdb-btn {
+  padding: 15px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  font-size: 15px;
+  color: rgb(33, 147, 172);
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  margin-top: 2em;
+  margin-left: 1em;
+  font-size: 1rem;
+  margin-bottom: 1.5em;
+}
+footer {
+  background-color: rgb(3, 66, 98);
+  display: block;
+  color: white;
+  width: 99%;
+}
+#the-basics {
+  margin-bottom: 1em;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  margin-left: 1em;
+}
+.footer-list {
+  position: relative;
+  top: -2em;
+  margin-left: -1em;
+}
+#get-involved {
+  position: relative;
+  top: -1em;
+  font-size: 1.1;
+  font-family: sans-serif;
+  margin-left: 1em;
+}
+
+#community {
+  position: relative;
+  top: -1.5em;
+
+  font-size: 1.1;
+  font-family: sans-serif;
+  margin-left: 1em;
+}
+
+#legal {
+  position: relative;
+  font-size: 1.1rem;
+  font-family: sans-serif;
+  margin-left: 1em;
+  top: -1.8em;
+}
 #user-search {
   width: 10rem;
   display: flex;
@@ -174,140 +408,17 @@ body {
   display: none;
 }
 
-#Trending {
-  font-family: sans-serif;
-  font-size: 20px;
-}
-#Today-btn {
-  height: 50px;
-  font-size: 30px;
-  width: 150px;
-  border-radius: 50px;
-  position: relative;
-  left: 10px;
-  border: none;
-  background-color: rgb(8, 49, 3);
-  color: aliceblue;
-}
 #week-btn {
   display: none;
 }
-#latest {
-  font-family: sans-serif;
-  font-size: 20px;
-}
-#week {
-  margin-left: 50px;
-  padding-bottom: 20px;
-}
-#Latest-Trailers {
-  margin-left: 50px;
-  display: flex;
-  padding: 20px 0px;
-  margin-top: 20px;
-  margin-bottom: 30px;
-}
-#stream-btn {
-  padding: 5px 10px;
-  width: 150px;
-  border-radius: 50px;
-  position: relative;
-  right: -25px;
-  border: none;
-  font-size: 30px;
-  background-color: rgb(5, 181, 93);
-}
+
 #stream {
   display: none;
 }
 #tv {
   display: none;
 }
-#popular {
-  border: 2px solid blue;
-  margin-top: 20px;
-  margin-left: 50px;
-  display: flex;
-  padding: 20px 0px;
-}
-#popular-btn {
-  padding: 5px 20px;
-  width: 150px;
-  border-radius: 50px;
-  position: relative;
 
-  border: none;
-  font-size: 30px;
-  color: aliceblue;
-  background-color: rgb(2, 37, 19);
-}
-
-#movie-container {
-  height: 525px;
-  left: -0.1px;
-  display: grid;
-  grid-template-columns: repeat(20, 300px);
-  grid-template-rows: 370px;
-  gap: 20px;
-  width: 57%;
-  border: 2px solid red;
-  overflow-x: scroll;
-  padding-top: 20px;
-  padding-left: 3em;
-  background-image: url(https://www.themoviedb.org/assets/2/v4/misc/trending-bg-39afc2a5f77e31d469b25c187814c0a2efef225494c038098d62317d923f8415.svg);
-  background-position: 50% 200px;
-  background-size: var(--maxPrimaryPageWidth);
-  background-repeat: no-repeat;
-}
-
-#movie-container2 {
-  left: -0.1px;
-  height: 430px;
-  display: grid;
-  grid-template-columns: repeat(20, 500px);
-  grid-template-rows: 300px;
-  gap: 20px;
-  width: 62%;
-  border: 2px solid red;
-  padding-top: 50px;
-  padding-bottom: 10px;
-  overflow-x: scroll;
-  color: #fff;
-  background-image: url(https://media.themoviedb.org/t/p/w1920_and_h427_multi_faces/xyAvU9WrfQLCCU2VxLF4t7EMXEF.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  transition: all 0.5s;
-}
-
-#movie-container3 {
-  left: -0.1px;
-  height: 545px;
-  display: grid;
-  grid-template-columns: repeat(20, 300px);
-  grid-template-rows: 370px;
-  gap: 20px;
-  width: 57%;
-  border: 2px solid red;
-  padding-top: 50px;
-  padding-left: 3em;
-  padding-bottom: 10px;
-  overflow-x: scroll;
-}
-
-#movie-container4 {
-  height: 520px;
-  display: grid;
-  grid-template-columns: repeat(20, 300px);
-  grid-template-rows: 370px;
-  gap: 20px;
-  width: 56%;
-  border: 2px solid red;
-  padding-top: 50px;
-
-  padding-bottom: 10px;
-  overflow-x: scroll;
-}
 .releaseDate {
   margin-top: 5px;
 }
@@ -315,43 +426,6 @@ body {
   margin-bottom: 0px;
 }
 
-#leaderboard {
-  background-image: url(IMG_20250419_133448.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 62.5%;
-  border: 2px solid red;
-  height: 850px;
-}
-
-section {
-  padding-top: 40px;
-  margin-top: 0px;
-  position: relative;
-  width: 300px;
-  border: 2px solid red;
-}
-footer {
-  background-color: rgb(3, 66, 98);
-  display: block;
-  color: white;
-  width: 39.5%;
-  border: 2px solid red;
-}
-#tmdb-btn {
-  padding: 15px;
-  font-family: sans-serif;
-  font-weight: bolder;
-  font-size: 15px;
-  color: rgb(33, 147, 172);
-  border-radius: 10px;
-  border: none;
-  position: relative;
-  margin-top: 90px;
-  margin-left: 40px;
-  font-size: 30px;
-  margin-bottom: 50px;
-}
 .imgDB {
   display: none;
   position: relative;
@@ -359,15 +433,7 @@ footer {
   right: -80px;
   margin-bottom: 0px;
 }
-#get-involved,
-#community {
-  position: relative;
 
-  margin-bottom: 50px;
-  font-size: 30px;
-  font-family: sans-serif;
-  margin-left: 50px;
-}
 .user-icon {
   width: 1.7rem;
   height: 2rem;
@@ -378,18 +444,7 @@ footer {
   width: 2rem;
   background-image: url(https://www.themoviedb.org/assets/2/v4/glyphicons/basic/glyphicons-basic-28-search-blue-177462d06db81ff2a02aa022c1c0be5ba4200d7bd3f51091ed9298980e3a26a1.svg);
 }
-#the-basics {
-  margin-bottom: 70px;
-  font-size: 30px;
-  font-family: sans-serif;
-  margin-left: 50px;
-}
-#legal {
-  position: relative;
-  font-size: 30px;
-  font-family: sans-serif;
-  margin-left: 50px;
-}
+
 .break-on-mobile {
   display: inline;
   margin: 0px;
@@ -400,62 +455,25 @@ footer {
 .container3,
 .container4 {
   border-radius: 10px;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
 }
 .img1,
 .img3,
 .img4 {
-  width: 300px;
-  height: 370px;
-  border-radius: 5px;
-}
-.img2 {
-  width: 500px;
-  height: 300px;
-}
-
-#join {
-  background-color: purple;
-  color: aliceblue;
-  height: 1170px;
-  position: relative;
-  padding: 20px 50px;
-  width: 51%;
-  border: 2px solid red;
-  font-family: sans-serif;
-}
-#join-today {
-  font-size: 50px;
-}
-#get-access {
-  font-size: 2.5rem;
-}
-.unorderedlist > ul > li {
-  font-size: 2.3rem;
-  font-family: sans-serif;
-  list-style: disc;
-}
-
-#sign-up {
-  padding: 20px 20px;
-  border-radius: 5px;
-  border: none;
-  background-color: blueviolet;
-  color: white;
-  font-family: sans-serif;
-  font-weight: bolder;
-  font-size: 2.5rem;
-  margin-top: 30px;
-  margin-bottom: 70px;
+  width: 160px;
+  height: 230px;
+  border-radius: 8px;
 }
 
 #hamburger-icon {
   display: flex;
   justify-content: space-around;
-  top: -456.5rem;
-  left: 3.5rem;
-
-  width: 1.7rem;
-  height: 1.7rem;
+  top: -239rem;
+  left: 2rem;
+  width: 1.3rem;
+  height: 1.5rem;
   flex-direction: column;
   position: relative;
   cursor: pointer;
@@ -496,7 +514,7 @@ footer {
   position: relative;
   left: 20px;
   top: 30px;
-  font-size: 2rem;
+  font-size: 1rem;
   color: #fff;
 }
 h3 {
