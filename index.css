@@ -25,9 +25,21 @@ body {
   width: 96%;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   gap: 7em;
-  margin-left: 0rem;
+}
+#hamburger-container {
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 5rem;
+  position: relative;
+  left: 2em;
+}
+.imgDB-icon {
+  position: relative;
+  left: 2em;
 }
 
 #user-search {
@@ -295,12 +307,13 @@ section {
 #join {
   background-color: purple;
   color: aliceblue;
-  height: 35rem;
+  min-height: 35rem;
   position: relative;
   padding-left: 1em;
   padding-top: 0.5em;
+  padding-bottom: 1em;
   margin-bottom: 1em;
-  width: 96.3%;
+  max-width: 96.3%;
   font-family: sans-serif;
 }
 #join-today {
@@ -335,8 +348,8 @@ section {
   background-repeat: no-repeat;
   background-size: auto;
 
-  width: 99%;
-  height: 525px;
+  max-width: 99%;
+  min-height: 525px;
 }
 
 #tmdb-btn {
@@ -479,13 +492,6 @@ footer {
   border-radius: 8px;
 }
 
-#hamburger-container {
-  height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 5rem;
-}
 .hamburger-icon {
   display: flex;
   justify-content: space-around;
